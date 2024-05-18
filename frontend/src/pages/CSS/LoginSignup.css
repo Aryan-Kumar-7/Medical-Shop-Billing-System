@@ -129,3 +129,9 @@ h1 {
     right: 0;
     /* transform: translateX(0); */
 }
+
+.signin{
+    min-height: 359px;
+    left: 0;
+    width: 50%;
+}
