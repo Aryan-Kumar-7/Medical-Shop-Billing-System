@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.navlogo img{
+    padding-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    color: rgb(112, 109, 109);
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-menu li hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+
+.helpline{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bf6);
+    border-radius: 10px;
+    margin-right: 80px;
+}
