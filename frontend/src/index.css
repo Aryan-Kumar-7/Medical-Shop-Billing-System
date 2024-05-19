@@ -1,0 +1,36 @@
+:root{
+    --black: black;
+    --purple: purple;
+    --light-color: #666;
+    --box-shadow: 2px 2px 12px grey;
+    --border: 2rem solid rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'andika';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+body{
+    background: #eee;
+    padding-top: 10%;
+    align-items: center;
+    flex-direction: column;
+    margin: -20px 0 50px;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+}

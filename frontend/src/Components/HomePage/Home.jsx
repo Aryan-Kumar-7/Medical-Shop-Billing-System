@@ -14,7 +14,7 @@ const Home = () => {
           <h2>We Here For Your Care</h2>
           <h1>We are the best Pharmacy</h1>
           <p>We are here for your care 24/7. Any help just call us.</p>
-          <Link to='/login'><button >Make An Appointment</button></Link>
+          <Link to='/login'><button className='btn1'>Make An Appointment</button></Link>
         </div>
 
         <div className="right">

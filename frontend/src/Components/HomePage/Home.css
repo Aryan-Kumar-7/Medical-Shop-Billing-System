@@ -4,13 +4,13 @@
 }
 
 .main .left{
-    padding-left: 11%;
+    padding-left: 0%;
     text-align: center;
     line-height: 1.6;
 }
 
 .main .left h2{
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 15px;
     text-transform: capitalize;
     color: var(--light-color);
@@ -22,15 +22,17 @@
     text-transform: capitalize;
     font-weight: 700;
     margin: 15px 0;
+    margin-top: 5%;
 }
 
 .main .left p{
     margin-bottom: 20px;
     font-size: 15px;
     color: var(--light-color);
+    margin-left: 110px;
 }
 
-.main .left button{
+.main .left .btn1{
     padding-top: 12px;
     padding: 15px 45px;
     text-align: center;

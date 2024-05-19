@@ -20,7 +20,7 @@ const LoginSignup = () => {
                             <input type="Password" placeholder='Password' name='Password' />
                         </div>
                         <p>Create an account? <span onClick={()=>{setLs("signin")}}>Click Here</span></p>
-                        <button>Continue</button>
+                        <button className='button'>Continue</button>
                     </form>
                 </div>
 
@@ -30,7 +30,7 @@ const LoginSignup = () => {
                             <h1>Hello User!</h1>
                             <p>Enter your personal details and starts your journey with us</p>
                             <img src={s3} alt="" />
-                            <button onClick={()=>{setLs("signin")}}>Sign Up</button>
+                            <button className='button' onClick={()=>{setLs("signin")}}>Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@ const LoginSignup = () => {
                         <div className="input-fields">
                             <input type="Password" placeholder='Password' name='Password' />
                         </div>
-                        <p>Already have an account? <span onClick={()=>{setLs("signin")}}>Click Here</span></p>
-                        <button>Continue</button>
+                        <p>Already have an account? <span onClick={()=>{setLs("login")}}>Click Here</span></p>
+                        <button className='button'>Continue</button>
                     </form>
                 </div>
 
@@ -58,7 +58,7 @@ const LoginSignup = () => {
                             <h1>Welcome Back</h1>
                             <p>To keep connected with us please login with your personal info</p>
                             <img src={s1} alt="" />
-                            <button onClick={()=>{setLs("login")}}>Log In</button>
+                            <button className='button' onClick={()=>{setLs("login")}}>Log In</button>
                         </div>
                     </div>
                 </div>
